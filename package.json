@@ -1,0 +1,16 @@
+{
+  "name": "easy-assertions",
+  "version": "1.0.0",
+  "description": "functions to make easier assertions to validate form fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assertions",
+    "forms",
+    "validations"
+  ],
+  "author": "miguel.angel.romero.gtz@gmail.com",
+  "license": "ISC"
+}
