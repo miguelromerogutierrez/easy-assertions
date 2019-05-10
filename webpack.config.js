@@ -1,13 +1,25 @@
+const path = require('path');
+
 module.exports = {
+  entry: [
+    path.join(__dirname, 'src/Assertions/index.js'),
+  ],
   module: {
-    loaders: [
-      {exclude: ['node_modules'], loader: 'babel', test: /\.js$/},
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+        }
+      }
     ],
   },
-  resolve: {
-    extensions: ['', 'js'],
-    modules: [
-      'node_modules',
-    ],
+  output: {
+    filename: 'easy-assertions.js',
+    path: path.join(__dirname, '/dist'),
+    library: 'easy-assertions',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
 };

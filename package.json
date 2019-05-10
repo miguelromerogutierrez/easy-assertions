@@ -1,8 +1,8 @@
 {
-  "name": "easy-assertions",
+  "name": "@miguelromerogutierre/easy-assertions",
   "version": "1.0.0",
   "description": "functions to make easier assertions to validate form fields",
-  "main": "index.js",
+  "main": "dist/easy-assertions.js",
   "scripts": {
     "test": "jest"
   },
@@ -11,6 +11,7 @@
     "forms",
     "validations"
   ],
+  "scope": "@npm/easy-assertions",
   "author": "miguel.angel.romero.gtz@gmail.com",
   "license": "ISC",
   "devDependencies": {
@@ -21,7 +22,18 @@
     "@babel/preset-env": "^7.4.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.5",
     "jest": "^24.8.0",
-    "regenerator-runtime": "^0.13.2"
-  }
+    "regenerator-runtime": "^0.13.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelromerogutierrez/easy-assertions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelromerogutierrez/easy-assertions/issues"
+  },
+  "homepage": "https://github.com/miguelromerogutierrez/easy-assertions#readme"
 }
