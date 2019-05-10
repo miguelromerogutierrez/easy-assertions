@@ -19,9 +19,9 @@ The first is create an assertion that should validate a primitive value:
 
 ```javascript
 import { createAssert } from 'easy-assertions';
-const toBe createAssert = createAssert(
+const toBe = createAssert(
   (condition, value) => condition === value,
-  condition => `TO_BE_${condition}`;
+  condition => `TO_BE_${condition}`,
 )
 const toBe0 = toBe(0);
 // => returns a function that will validate to be 0;
