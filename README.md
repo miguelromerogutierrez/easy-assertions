@@ -65,5 +65,4 @@ console.log(validate(20)) // => []
 ```
 
 ## Contributors
-(https://avatars3.githubusercontent.com/u/21224308?s=400&u=507c0ec2ca165b68376a337266408a870b45841d&v=4)
 [Mike Romero](https://medium.com/@miguel.angel.romero.gtz)
