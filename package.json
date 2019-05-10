@@ -1,6 +1,6 @@
 {
-  "name": "@miguelromerogutierre/easy-assertions",
-  "version": "1.0.0",
+  "name": "easy-assertions",
+  "version": "1.0.1",
   "description": "functions to make easier assertions to validate form fields",
   "main": "dist/easy-assertions.js",
   "scripts": {

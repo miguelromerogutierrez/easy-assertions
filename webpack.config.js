@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: [
-    path.join(__dirname, 'src/Assertions/index.js'),
+    path.join(__dirname, 'src/Assertions/Assertions.js'),
   ],
   module: {
     rules: [
@@ -19,7 +19,6 @@ module.exports = {
     filename: 'easy-assertions.js',
     path: path.join(__dirname, '/dist'),
     library: 'easy-assertions',
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    libraryTarget: 'commonjs2',
   },
 };
