@@ -4,7 +4,11 @@ Easy assertions is a tiny library just with three simple functions to make easie
 
 Feel free to fork/copy this project and use it to your own project.
 
-----
+## Install
+
+```bash
+yarn add easy-assertions@1.0.1
+```
 
 ## Principle
 I'm based this project in functional programming, so i recommend to you have the basics knowledge about FP (compose and curry functions).
